@@ -13,7 +13,7 @@ const Home = () => {
   const jobArray = strJob.split('')
 
   useEffect(() => {
-    return () => {
+    {
       setTimeout(() => {
         setLetterClass('text-animate-hover')
       }, 4000)
